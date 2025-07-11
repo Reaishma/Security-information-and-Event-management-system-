@@ -2,7 +2,7 @@
 
 # SIEM Security Operations Center
 
-##overview 
+##  overview 
 
 A comprehensive Security Information and Event Management (SIEM) simulation platform that provides a unified interface for monitoring security events, threat intelligence, network traffic, and user behavior across multiple enterprise security platforms.
 
@@ -88,7 +88,7 @@ npm run dev
 
 The application will be available at `http://localhost:5000`
 
-##🚀 Live Demo 
+## 🚀 Live Demo 
  
 [view live demo](https://reaishma.github.io/Security-information-and-Event-management-system-/)
 
