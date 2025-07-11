@@ -1,10 +1,12 @@
 
 
-SIEM Security Operations Center
+# SIEM Security Operations Center
+
+##overview 
 
 A comprehensive Security Information and Event Management (SIEM) simulation platform that provides a unified interface for monitoring security events, threat intelligence, network traffic, and user behavior across multiple enterprise security platforms.
 
-![SIEM Dashboard](https://images.unsplash.com/photo-1558494949-ef010cbdcc31checkoutb-4.0.3&auto=format&fit=crop&w=1200&h=400)
+
 
 ## 🚀 Features
 
