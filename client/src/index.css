@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+
+  /* SIEM-specific color variables */
+  --siem-blue: hsl(214, 84%, 56%);
+  --siem-blue-light: hsl(217, 91%, 60%);
+  --siem-green: hsl(142, 76%, 36%);
+  --siem-amber: hsl(43, 96%, 56%);
+  --siem-purple: hsl(263, 70%, 50%);
+  --siem-red: hsl(0, 84%, 60%);
+  --siem-dark: hsl(220, 13%, 9%);
+  --siem-gray: hsl(215, 16%, 17%);
+  --siem-gray-light: hsl(215, 14%, 34%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-siem-blue {
+    color: var(--siem-blue);
+  }
+  .text-siem-blue-light {
+    color: var(--siem-blue-light);
+  }
+  .text-siem-green {
+    color: var(--siem-green);
+  }
+  .text-siem-amber {
+    color: var(--siem-amber);
+  }
+  .text-siem-purple {
+    color: var(--siem-purple);
+  }
+  .text-siem-red {
+    color: var(--siem-red);
+  }
+  .bg-siem-blue {
+    background-color: var(--siem-blue);
+  }
+  .bg-siem-blue-light {
+    background-color: var(--siem-blue-light);
+  }
+  .bg-siem-green {
+    background-color: var(--siem-green);
+  }
+  .bg-siem-amber {
+    background-color: var(--siem-amber);
+  }
+  .bg-siem-purple {
+    background-color: var(--siem-purple);
+  }
+  .bg-siem-red {
+    background-color: var(--siem-red);
+  }
+  .bg-siem-dark {
+    background-color: var(--siem-dark);
+  }
+  .bg-siem-gray {
+    background-color: var(--siem-gray);
+  }
+  .bg-siem-gray-light {
+    background-color: var(--siem-gray-light);
+  }
+  .border-siem-blue {
+    border-color: var(--siem-blue);
+  }
+  .border-siem-blue-light {
+    border-color: var(--siem-blue-light);
+  }
+  .border-siem-green {
+    border-color: var(--siem-green);
+  }
+  .border-siem-amber {
+    border-color: var(--siem-amber);
+  }
+  .border-siem-purple {
+    border-color: var(--siem-purple);
+  }
+  .border-siem-red {
+    border-color: var(--siem-red);
+  }
+  .border-siem-gray {
+    border-color: var(--siem-gray);
+  }
+  .border-siem-gray-light {
+    border-color: var(--siem-gray-light);
+  }
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--siem-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--siem-gray-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--siem-blue-light);
+}
+
+/* Animation for live monitoring indicator */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Monospace font for code and logs */
+.font-mono {
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
