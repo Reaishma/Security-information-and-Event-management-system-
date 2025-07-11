@@ -88,6 +88,12 @@ npm run dev
 
 The application will be available at `http://localhost:5000`
 
+##🚀 Live Demo 
+ 
+[view live demo](https://reaishma.github.io/Security-information-and-Event-management-system-/)
+
+
+
 ## 📖 Usage Guide
 
 ### IBM QRadar Interface
