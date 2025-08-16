@@ -8,7 +8,7 @@ A comprehensive Security Information and Event Management (SIEM) simulation plat
 
 # 🚀 Live Demo 
  
-[view live demo](https://reaishma.github.io/Security-information-and-Event-management-system-/)
+**view live demo** - https://reaishma.github.io/Security-information-and-Event-management-system-/
 
 ## 🚀 Features
 
