@@ -287,9 +287,7 @@ For support and questions:
 - [ ] Real-time collaboration features
 
 
-Sample Output 📄
 
-For a detailed sample output, refer to the https://docs.google.com/document/d/1Xs-NkrRz17O_hRUcnsyCGO2Khw0Rscb86bTaC1X5khU/edit?usp=drivesdk.
 
 
 
