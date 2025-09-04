@@ -119,6 +119,9 @@ The application will be available at `http://localhost:5000`
 - Track index health and data storage metrics
 
 ### Wireshark Network Analysis
+
+![Wireshark](https://github.com/Reaishma/Security-information-and-Event-management-system-/blob/main/Screenshot_20250903-163255_1.jpg)
+
 - Simulate live packet capture and analysis
 - Monitor protocol distribution and traffic statistics
 - Detect network anomalies and security threats
