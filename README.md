@@ -107,6 +107,9 @@ The application will be available at `http://localhost:5000`
 - Track network activity and blocked attempts
 
 ### Splunk Search Interface
+
+![SPLUNK](https://github.com/Reaishma/Security-information-and-Event-management-system-/blob/main/Screenshot_20250903-163303_1.jpg)
+
 - Execute advanced search queries using SPL syntax
 - Monitor machine learning alerts and anomalies
 - Analyze event timelines and source distributions
