@@ -113,6 +113,9 @@ The application will be available at `http://localhost:5000`
 - View index health and processing status
 
 ### ELK Stack Visualization
+
+![ELK Stack](https://github.com/Reaishma/Security-information-and-Event-management-system-/blob/main/Screenshot_20250903-163259_1.jpg)
+
 - Write Elasticsearch queries for log analysis
 - Monitor Logstash pipeline status (Input → Filter → Output)
 - View Kibana-style data visualizations
