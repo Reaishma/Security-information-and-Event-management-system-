@@ -6,6 +6,8 @@
 
 A comprehensive Security Information and Event Management (SIEM) simulation platform that provides a unified interface for monitoring security events, threat intelligence, network traffic, and user behavior across multiple enterprise security platforms.
 
+![overview](https://github.com/Reaishma/Security-information-and-Event-management-system-/blob/main/Screenshot_20250729-162841_2.jpg)
+
 # 🚀 Live Demo 
  
 **view live demo** - https://reaishma.github.io/Security-information-and-Event-management-system-/
