@@ -215,6 +215,9 @@ The platform includes comprehensive mock data generators for:
 
 ## 🔒 Security Features
 
+![Alienvault](https://github.com/Reaishma/Security-information-and-Event-management-system-/blob/main/Screenshot_20250903-163307_1.jpg)
+
+
 ### Event Correlation
 - Cross-platform security event correlation
 - Machine learning-powered threat detection
