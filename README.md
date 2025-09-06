@@ -305,9 +305,9 @@ For support and questions:
 
 
 
-Author 👩‍💻
+## Developer 👩‍💻
 
-Reaishma N
+**Reaishma N**
 
 
 ---
